@@ -227,14 +227,15 @@ ul{
 }
 
  /* Third-page-services-and-prices */
-#Services-and-Prices{
-    /* background-image: url("../images/services.jpg"); */
+.imgbckg{
+    background-image: url("../images/services.jpg");
     background-repeat: none;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;  
+}
+#Services-and-Prices{
     padding-left: 57px;
     padding-right: 55px;
-    background-color: black;
 }
 #Services-and-Prices-title-info{
     display: inline-flex;
@@ -269,29 +270,79 @@ ul{
     width: 585px;
     padding: 38px;
     background: linear-gradient(180deg, rgb(23,26,36), rgb(23,26,36,0.2));
+    /* height:180px; */
+    margin-top: 46px;
+    padding: 28,42,32,38;
 }
 #Services-and-Prices-left ul{
-
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 #Services-and-Prices-left ul li div{
     width: 505px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #9DA4BD;
-    align-items: center;
-    gap: 20px;
+    align-items: flex-end;
+    gap: 6px;
+    width: max-content;
+
 }
 #Services-and-Prices-left ul li div hr{
     width: 248px;
     height: 0;
-    border: 1px solid #9DA4BD;
+    border: 1px solid rgb(157,164,189,0.5);
     margin: 0;
 }
 #Services-and-Prices-right{
     width: 585px;
     padding: 38px;
+}
+#Services-and-Prices-right{
+    display: flex;
+    width: 585px;
+    padding: 38px;
+    background: linear-gradient(180deg, rgb(23,26,36), rgb(23,26,36,0.2));
+    /* height: 180px; */
+    margin-top: 46px;
+    padding: 28,42,32,38;
+}
+#Services-and-Prices-right ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Services-and-Prices-right ul li div{
+    width: 505px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    align-items: flex-end;
+    gap: 6px;
+    width: max-content;
+
+}
+#Services-and-Prices-right ul li div hr{
+    width: 248px;
+    height: 0;
+    border: 1px solid rgb(157,164,189,0.5);
+    margin: 0;
+}
+#Services-and-Prices-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
