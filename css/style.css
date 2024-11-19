@@ -10,6 +10,11 @@ header{
     flex-direction: row;
     height: 100vh;
 }
+ul{
+    list-style-type: none;
+}
+
+/* First-Page-Codes */
 #nav-container-left{
     width: 155px;
     display: flex;
@@ -79,7 +84,7 @@ header{
     font-size: 12px;
     font-weight: 600;
 }
-#navbar-right button{
+.button-comp-white{
     width: 160px;
     height: 40px;
     background-color: transparent;
@@ -142,4 +147,151 @@ header{
 .next a{
     display: flex;
     justify-content: end;
+}
+
+/* Second-page-about */
+#about{
+    display:flex;
+    flex-direction: row;
+    /* height: 705px; */
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    gap: 64px;
+}
+#about-left{
+    display: flex;
+    flex-direction: row;
+    height: 445px;
+    gap: 30px;
+}
+.about-right-top-title{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.about-right-top-title hr{
+    width: 60px;
+    height: 0px;
+    border: 1px solid #303030;
+}
+.about-right-top-title h6{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 10%;
+    margin: 0;
+}
+#about-right-top-title h2{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway";
+    letter-spacing: 0.05em;
+    line-height: normal;
+    color: #303030;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-right-first{
+    height: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color:#555555;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.about-right-second{
+    height: 104px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #555555;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.button-comp-black{
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+
+ /* Third-page-services-and-prices */
+#Services-and-Prices{
+    /* background-image: url("../images/services.jpg"); */
+    background-repeat: none;
+    background-position: center;
+    background-size: cover; 
+    padding-left: 57px;
+    padding-right: 55px;
+    background-color: black;
+}
+#Services-and-Prices-title-info{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 20px;
+    color:#9DA4BD;
+    align-items: center;
+    margin-top: 130px;
+
+}
+#Services-and-Prices-title-info hr{
+    width: 60px;
+    height: 0;
+    border: 1px solid #9DA4BD;
+}
+#Services-and-Prices-title-main{
+    height: 49px;
+    font-family: "Raleway";
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 49.31px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+#Services-and-Prices-prices{
+    display: flex;
+    flex-direction: row;
+}
+#Services-and-Prices-left{
+    display: flex;
+    width: 585px;
+    padding: 38px;
+    background: linear-gradient(180deg, rgb(23,26,36), rgb(23,26,36,0.2));
+}
+#Services-and-Prices-left ul{
+
+}
+#Services-and-Prices-left ul li div{
+    width: 505px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    align-items: center;
+    gap: 20px;
+}
+#Services-and-Prices-left ul li div hr{
+    width: 248px;
+    height: 0;
+    border: 1px solid #9DA4BD;
+    margin: 0;
+}
+#Services-and-Prices-right{
+    width: 585px;
+    padding: 38px;
 }
